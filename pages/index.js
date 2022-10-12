@@ -74,6 +74,11 @@ export default function Home() {
               </p>
             </p>
           </div>
+          <div>
+            <div>
+              <img src="" alt="" />
+            </div>
+          </div>
         </section>
       </main>
     </div>
