@@ -54,6 +54,27 @@ export default function Home() {
             />
           </div>
         </section>
+
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">{`<About me />`}</h3>
+            <p className="text-md py-2 leading-8 text-gray-800">
+              {`Since the beginning of my journey, I've loved becoming
+              a developer, I'm looking for my first job as a`}
+              <span className="text-teal-500">
+                {" "}
+                Software Engineer/Web Developer.
+              </span>
+              <p>
+                I look forward to showcasing my skills and contributing to
+                <span className="text-teal-500">
+                  {" "}
+                  making the world a better place.
+                </span>
+              </p>
+            </p>
+          </div>
+        </section>
       </main>
     </div>
   );
