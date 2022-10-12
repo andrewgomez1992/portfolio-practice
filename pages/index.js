@@ -1,6 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
+import Image from "next/image";
+import avatar from "./assets/avatar.png";
 
 export default function Home() {
   return (
@@ -39,10 +42,16 @@ export default function Home() {
               Join me down below and lets join forces.
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16">
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
             <AiFillGithub />
             <AiFillLinkedin />
             <AiOutlineMail />
+          </div>
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20">
+            <img
+              src="https://cdn3d.iconscout.com/3d/premium/thumb/stylist-young-boy-5692599-4743368.png"
+              alt=""
+            />
           </div>
         </section>
       </main>
